@@ -32,7 +32,7 @@ Entity Framework Core is used with the **Database First** approach, where the da
 
 **Version 1 — Initial Implementation**
 
-This is the first version of the project. Further improvements and features may be added in future versions.
+This is the initial version of the project. Future updates will focus on improving code quality, implementing security features such as authentication and authorization, adding automated tests, and expanding the project's functionality.
 
 ## Database Setup
 
