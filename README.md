@@ -1,4 +1,3 @@
-
 # 🏥 Clinic System API
 
 A RESTful Web API for managing clinic operations, developed using ASP.NET Core Web API (.NET 8), Entity Framework Core 8, and SQL Server.
@@ -36,23 +35,27 @@ The project follows a Three-Tier Architecture:
 
 ## Database
 
-The project uses SQL Server Express with the Entity Framework Core Database First approach.
+The project uses **SQL Server Express** as its database management system and **Entity Framework Core 8** with the **Database First** approach.
 
-The database schema is created first, and the application code is designed to work with the existing database structure.
+In this approach, the database schema is designed and created first. The application's entity classes and `DbContext` are then implemented to match the existing database structure.
+
+This approach allows the application to work with an existing database schema using Entity Framework Core.
 
 ### Database Schema
 
-![Clinic System Database Schema](database-schema.png)
+![Clinic System Database Schema](https://github.com/Fadi-Zegrari/clinic-management-api/raw/main/database-schema.png)
 
 ## Project Status
 
 **Version 1 — Initial Implementation**
 
-This is the initial version of the project. Future updates will focus on improving code quality, implementing security features such as authentication and authorization, adding automated tests, and expanding the project's functionality.
+This version represents the initial implementation of the project, focusing on the core functionality and three-tier architecture.
+
+Future versions will focus on improving code quality, enhancing error handling and performance, implementing security features such as authentication and authorization, adding automated tests, and expanding the project's functionality.
 
 ## Database Setup
 
-A database backup is available in the repository as `ClinicDB.bak`.
+A database backup is available for download: [Download ClinicDB.bak](https://github.com/Fadi-Zegrari/clinic-management-api/raw/refs/heads/main/ClinicDB.bak).
 
 ### Prerequisites
 
@@ -61,7 +64,7 @@ A database backup is available in the repository as `ClinicDB.bak`.
 
 ### Restore the Database
 
-1. Download `ClinicDB.bak` from the repository.
+1. Download the `ClinicDB.bak` file from the repository.
 2. Open SQL Server Management Studio.
 3. Connect to your SQL Server instance.
 4. Right-click **Databases** and select **Restore Database**.
@@ -91,9 +94,8 @@ Update the connection string in `appsettings.json` to match your SQL Server inst
 
 ## Roadmap
 
-- [ ] Improve code quality and error handling.
-- [ ] Review and optimize database queries.
-- [ ] Implement authentication and authorization.
-- [ ] Add unit and integration tests.
-- [ ] Improve project documentation and deployment instructions.
-- [ ] Explore Docker and CI/CD integration.
+- [ ] Improve existing code.
+- [ ] Add security features.
+- [ ] Improve error handling.
+- [ ] Add automated tests.
+- [ ] Expand project functionality.
