@@ -33,3 +33,24 @@ Entity Framework Core is used with the **Database First** approach, where the da
 **Version 1 — Initial Implementation**
 
 This is the first version of the project. Further improvements and features may be added in future versions.
+
+## Database Setup
+
+A database backup is available in this repository as `ClinicDB.bak`.
+
+### Prerequisites
+
+- SQL Server Express
+- SQL Server Management Studio (SSMS)
+
+### Restore the Database
+
+1. Open SQL Server Management Studio.
+2. Connect to your SQL Server instance.
+3. Right-click `Databases` and select `Restore Database`.
+4. Select `Device` as the source and choose `ClinicDB.bak`.
+5. Complete the restore process.
+
+### Connection String
+
+Update the connection string in `appsettings.json` to match your SQL Server instance and database name.
