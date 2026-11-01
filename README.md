@@ -1,4 +1,4 @@
-# 🏥 Clinic System API
+#  Clinic System API
 
 A RESTful Web API for managing clinic operations, developed using ASP.NET Core Web API (.NET 8), Entity Framework Core 8, and SQL Server.
 
